@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id = "@+id/action_search"
+    android:icon="@mipmap/ic_action_search"
+    android:title = "@string/action_search"
+    app:showAsAction = "always"
+    android:actionViewClass="android.widget.SearchView"/>
+
+    <item
+        android:id = "@+id/action_location_found"
+        android:icon="@mipmap/ic_action_location_found"
+        android:title="@string/action_location_found"
+        app:showAsAction = "ifRoom"/>
+    <item
+        android:id = "@+id/action_refresh"
+        android:icon="@mipmap/ic_action_refresh"
+        android:title="@string/action_refresh"
+        app:showAsAction = "ifRoom"/>
+    <item
+        android:id = "@+id/action_help"
+        android:icon="@mipmap/ic_action_help"
+        android:title="@string/action_help"
+        app:showAsAction = "never" />
+    <item
+        android:id = "@+id/action_check_updates"
+        android:icon="@mipmap/ic_action_refresh"
+        android:title = "@string/action_check_updates"
+        app:showAsAction = "never" />
+
+</menu>
